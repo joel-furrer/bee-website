@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 20vh;
+    height: 16vh;
     background: var(--amber);
     display: flex;
     align-items: center;
@@ -21,12 +21,20 @@
 }
 
 .header__nav__title {
-    color: var(--bronze-olive);
+    color: var(--toddy);
     font-size: var(--title-medium);
 }
 
+.header__nav__title:hover {
+    color: var(--honey);
+}
+
 .header__nav__title--main {
-    color: var(--toddy);
+    color: var(--bronze-olive);
     font-size: var(--title-big);
+}
+
+.header__nav__title--main:hover {
+    color: var(--toddy);
 }
 

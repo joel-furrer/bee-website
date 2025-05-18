@@ -8,7 +8,7 @@ function Header() {
             >
                 <a 
                     className="header__nav__title header__nav__title--main" 
-                    href="/" 
+                    href="/home" 
                 >
                     Abeille
                 </a>
