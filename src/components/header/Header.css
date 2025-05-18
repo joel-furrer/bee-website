@@ -1,0 +1,30 @@
+.header__header {
+    min-height: 20vh;
+    max-height: 20vh;
+    background: var(--amber);
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.header__nav {
+    padding-left: 40px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 40px;
+}
+
+.header__nav__title {
+    color: var(--bronze-olive);
+    font-size: var(--title-medium);
+}
+
+.header__nav__title--main {
+    color: var(--toddy);
+    font-size: var(--title-big);
+}
+

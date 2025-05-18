@@ -1,0 +1,11 @@
+:root {
+
+    /* Colors */
+    --amber: #ffc300;
+    --toddy: #ae8507;
+    --bronze-olive: #533e0d;
+
+    /* Font sizes */
+    --title-big: 4rem;
+    --title-medium: 3rem;
+}
