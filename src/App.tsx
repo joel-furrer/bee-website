@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import "./App.css"
 import "./styles/Variables.css"
 import Header from "./components/header/Header"
-import Footer from "./components/footer/Footer.tsx"
 import Home from "./pages/home/Home.tsx"
 import Wiki from "./pages/wiki/Wiki"
 import Honey from "./pages/honey/Honey.tsx"
@@ -27,7 +26,6 @@ function App() {
                         </Routes>
                     </Router>
                 </main>
-                <Footer/>
             </div>
         </>
     )

@@ -1,4 +1,8 @@
+.container__home {
+    min-height: 100%;
+}
+
 .home__wallpaper {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
