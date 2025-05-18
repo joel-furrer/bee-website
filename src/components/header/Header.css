@@ -1,13 +1,13 @@
 .header__header {
     position: fixed;
-    min-height: 20vh;
-    max-height: 20vh;
-    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20vh;
     background: var(--amber);
     display: flex;
-    flex-direction: row;
-    justify-content: left;
     align-items: center;
+    z-index: 1000;
 }
 
 .header__nav {

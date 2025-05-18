@@ -1,0 +1,13 @@
+.footer__footer {
+    height: 20vh;
+    width: 100%;
+    background: var(--amber);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__footer {
+    color: var(--toddy);
+    font-size: var(--subtitle-medium);
+}
