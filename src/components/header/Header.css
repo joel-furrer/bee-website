@@ -1,6 +1,8 @@
 .header__header {
+    position: fixed;
     min-height: 20vh;
     max-height: 20vh;
+    width: 100%;
     background: var(--amber);
     display: flex;
     flex-direction: row;

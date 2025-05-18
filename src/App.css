@@ -1,3 +1,8 @@
-p {
-    color: green;
+.wallpaper {
+    width: 100%;
+    height: auto;
+}
+
+.main__main {
+    overflow: scroll;
 }
