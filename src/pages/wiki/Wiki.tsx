@@ -6,7 +6,7 @@ function Wiki() {
         <>
             <MarkdownPage 
                 filePaths={[
-                    "/content/wiki/bienenarten.md"
+                    "/content/wiki/bienen.md"
                 ]}
                 showToc={true}
             />

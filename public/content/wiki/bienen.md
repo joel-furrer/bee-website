@@ -48,6 +48,51 @@ Wildbienen bestäuben viele Pflanzen **effizienter als Honigbienen**, da sie spe
 
 ---
 
+## 🌳 Lebensraum
+
+Bienen leben in sehr unterschiedlichen Lebensräumen: von Wäldern über Wiesen und Gärten bis hin zu städtischen Parks. Wichtige Merkmale sind das Angebot an Blütenpflanzen und geeignete Nistplätze.
+
+**Besonderheiten:**
+- Honigbienen bevorzugen offene Landschaften mit vielfältiger Blütenpracht
+- Solitärbienen nutzen oft hohle Stängel, Löcher im Holz oder Erdlöcher
+- Urbanes Bienenleben nimmt durch grüne Oasen und Dachgärten zu
+
+---
+
+## 🐣 Lebenszyklus
+
+Bienen durchlaufen mehrere Entwicklungsstadien: Ei, Larve, Puppe und schließlich das ausgewachsene Insekt.
+
+**Phasen:**
+- Eier werden in Nistzellen gelegt
+- Larven werden von Arbeiterbienen mit Nahrung versorgt
+- Puppenphase findet geschützt in der Zelle statt
+- Nach Abschluss schlüpfen die erwachsenen Bienen
+
+---
+
+## ⚠️ Bedrohung
+
+Viele Bienenarten sind weltweit bedroht durch Habitatverlust, Pestizide, Krankheiten und Klimawandel.
+
+**Wichtige Punkte:**
+- Verlust von Wildblumenwiesen reduziert Nahrungsangebot
+- Pestizide schaden Bienen direkt oder schwächen ihr Immunsystem
+- Parasiten wie die Varroamilbe setzen Honigbienen stark zu
+
+---
+
+## 📡 Kommunikation
+
+Bienen kommunizieren komplex über verschiedene Signale.
+
+**Beispiele:**
+- Die Honigbiene nutzt den Schwänzeltanz, um Nahrungsquellen zu vermitteln
+- Pheromone steuern das Verhalten innerhalb des Bienenvolkes
+- Vibrationen und Berührungen helfen bei der Koordination
+
+---
+
 ## 🌍 Fazit
 
 Bienen sind unglaublich vielfältig – und jede Art erfüllt eine wichtige Rolle im Ökosystem. Nicht nur Honigbienen verdienen Schutz und Aufmerksamkeit, sondern **alle Bienenarten**!
