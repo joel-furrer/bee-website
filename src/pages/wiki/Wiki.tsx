@@ -4,7 +4,12 @@ import Footer from "@Components/footer/Footer"
 function Wiki() {
     return (
         <>
-            <MarkdownPage filePath="/content/wiki/bienenarten.md" />
+            <MarkdownPage 
+                filePaths={[
+                    "/content/wiki/bienenarten.md"
+                ]}
+                showToc={true}
+            />
             <Footer />
         </>
     )

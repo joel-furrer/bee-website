@@ -29,3 +29,21 @@
     border-radius: 4px;
     font-family: monospace;
 }
+
+.toc {
+    background-color: #fffbe6;
+    padding: 1rem;
+    border-left: 4px solid var(--honey);
+    margin-bottom: 2rem;
+}
+
+.toc ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.toc li a {
+    text-decoration: none;
+    color: var(--toddy);
+}
+

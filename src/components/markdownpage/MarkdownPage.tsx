@@ -1,24 +1,37 @@
 import { useEffect, useState } from "react"
 import ReactMarkdown from "react-markdown"
+import { unified } from "unified"
+import remarkParse from "remark-parse"
 import remarkGfm from "remark-gfm"
 import remarkSlug from "remark-slug"
 import remarkToc from "remark-toc"
+import remarkStringify from "remark-stringify"
 import "./MarkdownPage.css"
 
 interface MarkdownPageProps {
-    filePath: string
-    showToc?: boolean
+    filePaths: string[]
     className?: string
 }
 
-function MarkdownPage({ filePath, showToc = true, className = "" }: MarkdownPageProps) {
+function MarkdownPage({ filePaths, className = "" }: MarkdownPageProps) {
     const [content, setContent] = useState("")
 
     useEffect(() => {
-        fetch(filePath)
-            .then((res) => res.text())
-            .then(setContent)
-    }, [filePath])
+        Promise.all(filePaths.map(path => fetch(path).then(res => res.text())))
+            .then(async (contents) => {
+                const rawMarkdown = contents.join("\n\n")
+
+                const processed = await unified()
+                    .use(remarkParse)
+                    .use(remarkGfm)
+                    .use(remarkSlug)
+                    .use(remarkToc, { heading: 'Inhaltsverzeichnis', maxDepth: 2 })
+                    .use(remarkStringify)
+                    .process(rawMarkdown)
+
+                setContent(String(processed))
+            })
+    }, [filePaths])
 
     return (
         <div className={`markdown-page ${className}`}>
@@ -27,7 +40,6 @@ function MarkdownPage({ filePath, showToc = true, className = "" }: MarkdownPage
                 remarkPlugins={[
                     remarkGfm,
                     remarkSlug,
-                    ...(showToc ? [remarkToc] : []),
                 ]}
             />
         </div>
