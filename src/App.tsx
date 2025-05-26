@@ -6,6 +6,7 @@ import Header from "./components/header/Header"
 import Home from "./pages/home/Home.tsx"
 import Wiki from "./pages/wiki/Wiki"
 import Honey from "./pages/honey/Honey.tsx"
+import Tasks from "./pages/tasks/Tasks.tsx"
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
                             <Route path="/home" element={<Home />} />
                             <Route path="/wiki" element={<Wiki />} />
                             <Route path="/honey" element={<Honey />} />
+                            <Route path="/tasks" element={<Tasks />} />
                         </Routes>
                     </Router>
                 </main>

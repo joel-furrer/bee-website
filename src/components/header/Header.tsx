@@ -14,7 +14,7 @@ function Header() {
                 </a>
                 <a className="header__nav__title" href="/wiki" >Wiki</a>
                 <a className="header__nav__title" href="/honey" >Honig</a>
-                <a className="header__nav__title" href="/" >Aufgaben</a>
+                <a className="header__nav__title" href="/tasks" >Aufgaben</a>
             </nav>
         </header>
     )
