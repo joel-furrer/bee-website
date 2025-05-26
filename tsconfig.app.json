@@ -21,7 +21,20 @@
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    /* Neu: Pfad Aliase */
+    "baseUrl": "src",
+    "paths": {
+      "@Assets/*": ["assets/*"],
+      "@Components/*": ["components/*"],
+      "@Styles/*": ["styles/*"],
+      "@Content/*": ["content/*"]
+    },
+
+    /* Node Typen für path etc. */
+    "types": ["node"]
   },
   "include": ["src"]
 }
+
