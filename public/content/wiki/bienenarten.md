@@ -1,8 +1,5 @@
 # Wiki
 
-## Inhaltsverzeichnis
-<!-- toc -->
-
 # Bienenarten
 
 Es gibt weltweit über **20.000 Bienenarten**, doch nur ein kleiner Teil davon produziert Honig. In diesem Artikel stellen wir dir einige der bekanntesten Arten vor.
