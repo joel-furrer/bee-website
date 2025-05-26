@@ -1,9 +1,18 @@
-
+import MarkdownPage from "@Components/markdownpage/MarkdownPage"
+import Footer from "@Components/footer/Footer"
 
 function Honey() {
     return (
-        <h1>Honig</h1>
+        <>
+            <MarkdownPage 
+                filePaths={[
+                    "/content/honey/honey.md"
+                ]}
+                showToc={true}
+            />
+            <Footer />
+        </>
     )
 }
 
-export default Honey;
+export default Honey
