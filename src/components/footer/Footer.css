@@ -1,31 +1,31 @@
 .bee-footer {
-    background-color: #fffbe6;
-    border-top: 2px solid var(--honey, #f7c948);
-    padding: 1.5rem 2rem;
-    margin-top: 4rem;
-    font-family: sans-serif;
-    font-size: 0.9rem;
-    color: #5c4b1b;
+    background-color: var(--background-light);
+    border-top: 2px solid var(--honey);
+    padding: var(--spacing-md) var(--spacing-lg);
+    margin-top: var(--spacing-xl);
+    font-family: var(--font-sans);
+    font-size: var(--font-size-small);
+    color: var(--color-footer-text);
 }
 
 .bee-footer-content {
-    max-width: 900px;
+    max-width: var(--max-width);
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.5rem;
+    gap: var(--spacing-xs);
     text-align: center;
 }
 
 .bee-footer-content nav {
     display: flex;
-    gap: 1.5rem;
+    gap: var(--spacing-md);
     flex-wrap: wrap;
 }
 
 .bee-footer-content a {
-    color: var(--toddy, #a47700);
+    color: var(--toddy);
     text-decoration: none;
     font-weight: 500;
 }

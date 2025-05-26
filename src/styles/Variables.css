@@ -1,15 +1,35 @@
 :root {
-
     /* Colors */
     --amber: #ffc300;
     --honey: #d4a72a;
     --toddy: #ae8507;
     --bronze-olive: #533e0d;
 
+    --background-light: #fffbe6;
+    --background-code: #f4f4f4;
+    --color-footer-text: #5c4b1b;
+    --color-text-dark: #333;
+
+    /* Font */
+    --font-sans: sans-serif;
+
     /* Font sizes */
     --title-big: 4rem;
     --title-medium: 3rem;
-    
-
     --subtitle-medium: 1rem;
+    --font-size-small: 0.9rem;
+
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 4rem;
+
+    /* Widths */
+    --max-width: 900px;
+    --max-width-md: 800px;
+
+    /* Border radius */
+    --border-radius: 4px;
 }
