@@ -37,3 +37,26 @@
 .header__nav__title--main:hover {
     color: var(--toddy);
 }
+
+@media (max-width: 600px) {
+  .header__header {
+    height: auto;
+    padding: var(--spacing-sm);
+  }
+
+  .header__nav {
+    padding-left: var(--spacing-sm);
+    flex-direction: column;
+    gap: var(--spacing-sm);
+    align-items: flex-start;
+  }
+
+  .header__nav__title {
+    font-size: 1.5rem;
+  }
+
+  .header__nav__title--main {
+    font-size: 2rem;
+  }
+}
+
