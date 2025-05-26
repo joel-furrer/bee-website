@@ -1,34 +1,33 @@
 import "./Home.css"
+import { useTranslation } from "react-i18next"
 import { Link } from "react-router-dom"
 
 function Home() {
+    const { t } = useTranslation()
+
     return (
         <div className="container__home">
             <section className="hero">
-                <h1>Abeille</h1>
-                <p>Entdecke die faszinierende Welt der Bienen 🐝</p>
+                <h1>{t("home.title")}</h1>
+                <p>{t("home.subtitle")}</p>
             </section>
 
             <section className="intro">
-                <p>
-                    Willkommen auf <strong>Abeille</strong> – deiner Plattform für alles rund um Bienen.
-                    Von Artenvielfalt über Kommunikation bis hin zu ihrer Rolle im Ökosystem:
-                    Hier erfährst du, warum Bienen so wichtig sind.
-                </p>
+                <p>{t("home.intro", { project: "Abeille" })}</p>
             </section>
 
             <section className="tiles">
                 <Link to="/wiki" className="tile">
-                    <h2>Wiki</h2>
-                    <p>Bienenarten, Lebensräume & mehr</p>
+                    <h2>{t("home.links.wiki")}</h2>
+                    <p>{t("home.links.wiki_desc")}</p>
                 </Link>
                 <Link to="/honey" className="tile">
-                    <h2>Honig</h2>
-                    <p>Wie entsteht Honig und warum ist er so besonders?</p>
+                    <h2>{t("home.links.honey")}</h2>
+                    <p>{t("home.links.honey_desc")}</p>
                 </Link>
                 <Link to="/tasks" className="tile">
-                    <h2>Aufgaben</h2>
-                    <p>Was machen Bienen eigentlich den ganzen Tag?</p>
+                    <h2>{t("home.links.tasks")}</h2>
+                    <p>{t("home.links.tasks_desc")}</p>
                 </Link>
             </section>
         </div>

@@ -1,0 +1,19 @@
+{
+    "home": {
+        "title": "Abeille",
+        "subtitle": "Entdecke die faszinierende Welt der Bienen 🐝",
+        "intro": "Willkommen auf {{project}} – deiner Plattform für alles rund um Bienen.",
+        "links": {
+            "wiki": "Wiki",
+            "wiki_desc": "Bienenarten, Lebensräume & mehr",
+            "honey": "Honig",
+            "honey_desc": "Wie entsteht Honig und warum ist er so besonders?",
+            "tasks": "Aufgaben",
+            "tasks_desc": "Was machen Bienen eigentlich den ganzen Tag?"
+        }
+    },
+    "footer": {
+        "copyright": "© {{year}} Abeille",
+        "made_with": "Mit 💛 gebaut"
+    }
+}
