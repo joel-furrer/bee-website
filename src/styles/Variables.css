@@ -9,6 +9,8 @@
     --background-code: #f4f4f4;
     --color-footer-text: #5c4b1b;
     --color-text-dark: #333;
+    --color-text-darker: #3d3d3d;
+    --color-tile-border: #e6ddc4;
 
     /* Font */
     --font-sans: sans-serif;
@@ -32,4 +34,6 @@
 
     /* Border radius */
     --border-radius: 4px;
+    --border-radius-lg: 1rem;
 }
+
